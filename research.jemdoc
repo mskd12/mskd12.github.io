@@ -1,1 +1,32 @@
-Under Progress
+= Research Projects
+Link to [index.html home]
+
+== Incentive Stackelberg MeanPayoff Games
+~~~
+{Research Project, [ashutosh.trivedi@colorado.edu Prof. Ashutosh Trivedi], IIT Bombay}
+Paper: Anshul Gupta, Sven Schewe, Ashutosh Trivedi, Maram Sai Krishna Deepak, Bharath Kumar Padarthi. [http://link.springer.com/chapter/10.1007%2F978-3-319-41591-8_21 Incentive Stackelberg Mean-Payoff Games] . 
+Software Engineering and Formal Methods (SEFM 2016), Volume 9763 of the series LNCS, pp 304-320 \n
+Tool: Developed a [https://bitbucket.org/mskd96/meanpayoff tool] to solve Mean-Payoff Games
+
+Description: Solving mean-payoff games(MPG) is an important problem in the area of formal verification. Work involved introducing and studying incentive equilibria for solving multi-player mean-payoff games(MMPG). Incentive equilibria are a kind of generalization of Nash equilibria and Stackelberg equilibria. Using the tool we developed, we have shown that incentive equilibria perform significantly better than other equilibria.
+~~~
+
+== SCION: Next generation Internet Architecture
+~~~
+{Research Internship, [adrian.perrig@inf.ethz.ch, Prof. Adrian Perrig], ETH Zurich}
+Talk: [Uploads/ETH.pdf Link] to the talk given to the Network Security group at ETH
+
+SCION is a new Internet architecture designed to provide route control, failure isolation and explicit trust information for end-to-end communications.  One of my tasks was to devise attacks on SCION. After a literature survey on existing DDoS attacks, I successfully designed a brute force attack using MAC of the Opaque field used in SCION. I have suggested defenses for this attack in which we increase the attack complexity by using longer MAC fields. The link to the talk given based on the findings can be found above.
+
+I have also developed SCION-DSE, a discrete event simulator useful to run simulations of SCION. Using SCION-DSE and SSFNet (BGP simulator), I devised experiments to show that SCION achieves 45x lesser packet overhead and a slightly better convergence time than BGP. My contributions to the code base can be found [https://github.com/netsec-ethz/scion/pulls?q=is%3Apr+is%3Aclosed+author%3Amskd96 here].
+~~~
+
+== Wireless Bit-rate adaptation algorithm: Minstrel
+~~~
+{Research Project, [mythili@cse.iitb.ac.in Prof. Mythili Vutkuru], IIT Bombay}
+Report: Link to the [Uploads/minstrel_report.pdf report] of the project
+
+We tried to experiment with the ’LookAroundRate’ parameter of the Minstrel algorithm which is used to adapt the bit-rate to the current wireless channel conditions using a network simulator, ns-3. Although we found some benefits in throughput and delay by varying look around rates, they were not substantial
+enough to pursue further research. As part of this project, we also formulated bit-rate adaptation problem as an instance of the Multi-armed bandit problem
+~~~
+
