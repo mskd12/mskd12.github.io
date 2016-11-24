@@ -1,0 +1,14 @@
+== Other Projects
+Link to [index.html home]
+
+== Tetris, Spring 2013, [https://github.com/mskd96/Tetris View]
+~~~
+{CS152, IIT Bombay, Prof. Amitabha Sanyal}
+We have implemented a Tetris player using functional programming language, PLT Scheme. We used minimax algorithm to guess the best possible move for the player at any stage.
+~~~
+
+== Glow Hockey, Fall 2012, [https://github.com/mskd96/GlowHockey View]
+~~~
+{CS101, IIT Bombay, Prof. Abhiram Ranade}
+Developed Glow Hockey inspired from the same game [[https://play.google.com/store/apps/details?id=com.natenai.glowhockey available] in Android. Used simplecpp library for the animations.
+~~~
