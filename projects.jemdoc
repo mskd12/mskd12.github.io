@@ -1,6 +1,12 @@
 == Other Projects
 Link to [index.html home]
 
+== Web Portal for Food Orders, Fall 2014, [https://github.com/mskd96/FOS View]
+~~~
+{CS 317 - Databases, IIT Bombay, Prof. N.L. Sarda}
+We developed a web interface for managing food orders of a company by modeling entities such as Users, Sellers, Orders using ER diagrams. Further, we deployed this using Apache Tomcat server with PostgreSQL as back-end and JSP as front-end.
+~~~
+
 == Tetris, Spring 2013, [https://github.com/mskd96/Tetris View]
 ~~~
 {CS152, IIT Bombay, Prof. Amitabha Sanyal}
