@@ -1,7 +1,7 @@
 = All about CTF's and related stuff
 We are a r00kie [https://ctftime.org/team/20757 CTF] team
 
-== pdfmaker 33C3 - {[https://archive.aachen.ccc.de/33c3ctf.ccc.ac/ CTF link]} - pwning pdflatex
+== pdfmaker 33C3 - {[https://archive.aachen.ccc.de/33c3ctf.ccc.ac/ CTF link]} - pwning pdflatex - 08\/01\/2016
 ~~~
 - Running shell commands through pdflatex and mpost - [https://scumjr.github.io/2016/11/28/pwning-coworkers-thanks-to-latex/ link]
 -- \write18 - Stream 18 is 'special' as it is not a file at all: instead, it is a way of sending commands to the operating system
