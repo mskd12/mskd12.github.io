@@ -1,0 +1,11 @@
+= All about CTF's and related stuff
+We are a r00kie [https://ctftime.org/team/20757 CTF] team
+
+== pdfmaker 33C3 - {[https://archive.aachen.ccc.de/33c3ctf.ccc.ac/ CTF link]} - pwning pdflatex
+~~~
+- Running shell commands through pdflatex and mpost - [https://scumjr.github.io/2016/11/28/pwning-coworkers-thanks-to-latex/ link]
+-- \write18 - Stream 18 is 'special' as it is not a file at all: instead, it is a way of sending commands to the operating system
+- CTF [https://github.com/EdwardPwnden/ctf-2016/tree/master/33c3/pdfmaker writeup1] 
+-- Sends shell commands through an mpost file
+- CTF [https://ssspeedgit00.github.io/2016/12/30/2016-33c3-m1/ writeup2]
+-- Ascii Encoding(??)
