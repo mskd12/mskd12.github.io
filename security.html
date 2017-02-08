@@ -14,8 +14,6 @@
 <div id="subtitle">We are a r00kie <a href="https://ctftime.org/team/20757">CTF</a> team</div>
 </div>
 <h2>pdfmaker 33C3 - {<a href="https://archive.aachen.ccc.de/33c3ctf.ccc.ac/">CTF link</a>} - pwning pdflatex - 08/01/2016</h2>
-<div class="infoblock">
-<div class="blockcontent">
 <ul>
 <li><p>Running shell commands through pdflatex and mpost - <a href="https://scumjr.github.io/2016/11/28/pwning-coworkers-thanks-to-latex/">link</a></p>
 <ul>
@@ -29,7 +27,29 @@
 </li>
 <li><p>CTF <a href="https://ssspeedgit00.github.io/2016/12/30/2016-33c3-m1/">writeup2</a></p>
 <ul>
-<li><p>Ascii Encoding(??)</p>
+<li><p>Ascii Encoding - (<b>Q</b>: How are the Double Carats working?)</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<h2>Forensics BITSCTF {<a href="https://bitsctf.bits-quark.org/challenges">CTF link</a>} - 05/02/2016</h2>
+<ul>
+<li><p><b>Black Hole</b> - 10 pts</p>
+<ul>
+<li><p>Open it in a hex editor, you will find the flag encoded in Base64 at the end</p>
+</li></ul>
+</li>
+<li><p><b>WoodStock-1</b> - 10 pts</p>
+<ul>
+<li><p>Running strings gave away the answer here</p>
+</li></ul>
+</li>
+<li><p><b>WoodStock-2</b> - 55 pts</p>
+<ul>
+<li><p>I spent some time initially looking at the conversation through wireshark. Looking at the BZ signature, I realised there might be some bzip2 files sent over the network(Later came to know about binwalk which extracts all of the files in a snap). I extracted them and found that the size of flag file is 14 and also came to know the TTH value. So, I realised the flag can be recovered with just a brute-force over all possible strings of 4 length size (BITSCTF{} has 9 bytes and one for the new line char). Unfortunately, we couldn't solve this in the competetion as we couldn't find a reliable TTH calculator. I tried using the tiger module in python with no success :( (<b>Later</b>: Investiage more on why this is happening)</p>
+</li>
+<li><p>Yep! tiger and TTH are different <a href="http://stackoverflow.com/questions/25962736/python-tiger-hash-values-are-wrong">SO-link</a>(look at one of the comments). Looks like TTH uses the tiger message digest and does some more other stuff. Here are some tools used by other teams - rhash, <a href="http://directory.fsf.org/wiki/Tthsum">tthsum</a></p>
 </li>
 </ul>
 
@@ -37,7 +57,7 @@
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-01-08 12:23:50 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2017-02-09 00:37:29 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </div>
